@@ -1,0 +1,19 @@
+/**index.wxss**/
+.box{
+
+}
+.item{
+  width: 100px;
+height: 100px;
+background: red;
+border: 1px solid #000;
+margin: 10px;
+}
+.listView{
+
+}
+.li{
+  border-bottom: 1px dashed #000;
+  height: 30px;
+  line-height: 30px;
+}

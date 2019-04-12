@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<!-- <view>
+<text>{{msg}}</text>
+</view> -->
+<view class='box'>
+<button size='mini' bindtap='change'>切换</button>
+<view class='item' wx:if="{{bShow}}"></view>
+</view>
+
+<view class='listView'>
+<view class='li' wx:for="{{arr}}" wx:key="{{index}}">
+{{item}}  {{index}}
+</view>
+</view>
+
+<view class='listView'>
+<view class='li' wx:for="{{arrData}}" wx:key="{{index}}">
+{{item.name}}  {{item.age}}  {{index}}
+</view>
+</view>
